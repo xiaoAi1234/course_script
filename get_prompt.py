@@ -8,7 +8,7 @@ def read_file_content(file_path):
     """
     # 检查文件是否存在
     if not os.path.exists(file_path):
-        print(f"错误：找不到文件 '{file_path}'，请检查路径是否正确。")
+        print(f"错误：找不到文件 '{file_path}'，请检查路径是否正确")
         return None
 
     try:
