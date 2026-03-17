@@ -69,7 +69,8 @@ def interact_with_user(dict_array, start_num):
         if file_text:
             write_file_content(PATH_DICT["output"], file_text + f"{item.get('content')}")
 
-        print(f"第 {x + i} 页    {item.get("type")}")
+        print(f"第 {x + i} 页    {item.get('type')}")
+
 
         # 询问用户是否继续
         while True:
