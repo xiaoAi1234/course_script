@@ -71,6 +71,7 @@ def interact_with_user(dict_array, start_num):
 
         print(f"第 {x + i} 页    {item.get('type')}")
 
+
         # 询问用户是否继续
         while True:
             user_input = input("是否继续？(按下回车继续，输入 n 退出): ").strip().lower()
